@@ -6,15 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author"      : {
-    "name"      : "Stefan Dühring",
-    "email"     : "Autarc@gmail.com",
-    "url"       : "https://github.com/autarc/"
+  "author": {
+    "name": "Stefan Dühring",
+    "email": "Autarc@gmail.com",
+    "url": "https://github.com/autarc/"
   },
   "keywords": [
     "steam",
     "store",
     "products",
+    "unofficial",
     "API"
   ],
   "license": "MIT",
