@@ -16,6 +16,6 @@ store.steam('storeSearch', term).then(function (results) {
     return result.id;
   });
   store.getProductsDetails(results).then(function (details) {
-    console.log(details)
+    console.log(details);
   });
 });

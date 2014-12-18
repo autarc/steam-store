@@ -1,6 +1,6 @@
 {
   "name": "steam-store",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "API client for the unofficial steam storefront/big picture resource",
   "main": "index.js",
   "scripts": {

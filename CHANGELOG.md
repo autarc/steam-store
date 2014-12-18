@@ -1,3 +1,9 @@
+# 0.3.0 - December 18, 2014
+
+- add '.getSteamAppLink(appid)'
+- include 'steam_link' in app details
+
+
 ## 0.2.0 - December 17, 2014
 
 - match
