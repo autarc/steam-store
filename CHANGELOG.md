@@ -1,3 +1,8 @@
+# 0.3.3 - December 19, 2014
+
+- fix '.get' references
+
+
 # 0.3.0 - December 18, 2014
 
 - add '.getSteamAppLink(appid)'
