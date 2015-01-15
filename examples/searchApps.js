@@ -9,9 +9,10 @@ var SteamStore = require('../index');
 
 var store = new SteamStore();
 
-var term = 'creed';
+var searchTerm = 'Creed';
 
-store.steam('storeSearch', term).then(function (results) {
+
+store.steam('storeSearch', searchTerm).then(function (results) {
   results = results.map(function (result) {
     return result.id;
   });

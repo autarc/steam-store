@@ -1,16 +1,7 @@
 {
   "name": "steam-store",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "API client for the unofficial steam storefront/big picture resource",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "Stefan Dühring",
-    "email": "Autarc@gmail.com",
-    "url": "https://github.com/autarc/"
-  },
   "keywords": [
     "steam",
     "store",
@@ -18,9 +9,16 @@
     "unofficial",
     "API"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Autarc/material-ui-stylus.git"
+  },
   "license": "MIT",
+  "author": "Stefan Dühring | Autarc <autarc@gmail.com>",
+  "main": "index.js",
   "dependencies": {
-    "bluebird": "^2.3.11",
+    "JSONStream": "^0.10.0",
+    "bluebird": "^2.6.4",
     "languages": "^0.1.3",
     "request": "^2.51.0"
   }
