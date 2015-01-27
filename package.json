@@ -1,21 +1,9 @@
 {
   "name": "steam-store",
-  "version": "0.4.0",
   "description": "API client for the unofficial steam storefront/big picture resource",
-  "keywords": [
-    "steam",
-    "store",
-    "products",
-    "unofficial",
-    "API"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Autarc/steam-store.git"
-  },
-  "license": "MIT",
+  "version": "0.4.0",
   "author": "Stefan Dühring | Autarc <autarc@gmail.com>",
-  "main": "index.js",
+  "bugs": "https://github.com/Autarc/steam-store/issues",
   "dependencies": {
     "JSONStream": "^0.10.0",
     "bluebird": "^2.6.4",
@@ -23,5 +11,17 @@
     "request": "^2.51.0"
   },
   "homepage": "https://github.com/Autarc/steam-store",
-  "bugs": "https://github.com/Autarc/steam-store/issues"
+  "keywords": [
+    "steam",
+    "store",
+    "products",
+    "unofficial",
+    "API"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Autarc/steam-store.git"
+  }
 }
