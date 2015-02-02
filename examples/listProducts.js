@@ -22,8 +22,8 @@ var store = new SteamStore({
 
 store.getProducts('mod', true)
      .pipe(JSONStream.parse())
-     .on('data', function (data) {
-        console.log(data.name);
+     .on('data', function (product) {
+        console.log(product.name);
       })
      .on('end', function(){
       console.log('END')
